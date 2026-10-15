@@ -1,0 +1,16 @@
+{
+  "status": "TARGETS NOT MET; optimized runtime implemented; candidate not promoted",
+  "skill_match_frozen": "11/24",
+  "attack_f1_frozen": 0.0,
+  "retreat_f1_frozen": 0.0,
+  "retreat_original_label_valid": false,
+  "audited_attack_f1": 0.0,
+  "audited_retreat_f1": 0.3478,
+  "host_control_send_p95_30": 21.24904999800492,
+  "host_control_send_p95_60": 15.952564976760186,
+  "true_game_event_phone_touch_p95": "UNVERIFIED at both rates",
+  "original_checks": "10/10 green",
+  "additional_checks": "4/4 green",
+  "default_model": "baseline v1 retained",
+  "frozen_data_hashes_verified": true
+}

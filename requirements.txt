@@ -1,0 +1,6 @@
+laya==0.4.7
+av==16.1.0
+opencv-python==4.14.0.94
+Pillow==12.3.0
+onnx==1.23.2
+onnxruntime==1.31.0

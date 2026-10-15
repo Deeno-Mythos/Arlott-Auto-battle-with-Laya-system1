@@ -1,0 +1,9 @@
+truth/prediction,hold,approach,retreat,attack,skill1,skill2,ultimate,reposition
+hold,9,0,0,0,0,0,1,0
+approach,0,1,1,0,2,0,0,1
+retreat,0,1,0,0,0,0,0,0
+attack,0,0,0,0,0,0,0,3
+skill1,0,0,0,0,4,0,1,0
+skill2,0,1,0,0,3,7,2,4
+ultimate,0,0,0,0,2,0,0,0
+reposition,1,4,2,0,7,8,1,28

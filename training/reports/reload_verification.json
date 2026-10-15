@@ -1,0 +1,13 @@
+{
+  "model": "models/arlott-video-v1",
+  "phone_access": false,
+  "rows": 94,
+  "reload_prediction_agreement": 1.0,
+  "accuracy": 0.574468085106383,
+  "confidence_max_error": 4.9168777465857794e-05,
+  "fast_refresh_same_state_agreement": 1.0,
+  "fast_refresh_median_ms": 0.112,
+  "latency_median_ms": 421,
+  "latency_p95_ms": 453,
+  "weights_sha256": "1cbaf32da9b7f26e35249cc770b03d3e552334d7c0a5305e94965d242285e216"
+}

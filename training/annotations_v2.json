@@ -1,0 +1,32 @@
+{
+  "annotator": "assistant visual review of timestamped source frames; no human expert confirmation",
+  "interval_definition": "Observed action state. Dense frames within an interval are correlated, not independent demonstrations.",
+  "intervals": [
+    {"start":57.9,"end":60.1,"label":"attack","episode":"lane-58","confidence":0.8},
+    {"start":89.8,"end":91.4,"label":"attack","episode":"lane-90","confidence":0.8},
+    {"start":144.7,"end":145.8,"label":"attack","episode":"lane-145","confidence":0.75},
+    {"start":196.8,"end":197.8,"label":"attack","episode":"lane-197","confidence":0.8},
+    {"start":310.9,"end":311.5,"label":"attack","episode":"lane-311","confidence":0.7},
+    {"start":332.3,"end":333.0,"label":"attack","episode":"lane-332","confidence":0.8},
+    {"start":466.8,"end":467.4,"label":"attack","episode":"lane-467","confidence":0.75},
+    {"start":606.8,"end":607.18,"label":"attack","episode":"lane-607","confidence":0.8},
+    {"start":715.8,"end":717.4,"label":"attack","episode":"base-716","confidence":0.8},
+    {"start":120.0,"end":120.7,"label":"retreat","episode":"disengage-120","confidence":0.7},
+    {"start":130.7,"end":131.3,"label":"retreat","episode":"disengage-131","confidence":0.7},
+    {"start":299.6,"end":301.7,"label":"retreat","episode":"disengage-300","confidence":0.75},
+    {"start":413.2,"end":414.1,"label":"retreat","episode":"disengage-413","confidence":0.7},
+    {"start":496.0,"end":496.7,"label":"retreat","episode":"disengage-496","confidence":0.7},
+    {"start":550.0,"end":551.6,"label":"retreat","episode":"disengage-550","confidence":0.65},
+    {"start":698.7,"end":699.8,"label":"retreat","episode":"disengage-699","confidence":0.75},
+    {"start":730.3,"end":731.2,"label":"retreat","episode":"disengage-731","confidence":0.75},
+    {"start":102.8,"end":105.1,"label":"hold","episode":"scoreboard-103","confidence":0.95},
+    {"start":607.35,"end":607.85,"label":"hold","episode":"shop-607","confidence":0.95},
+    {"start":608.35,"end":608.85,"label":"hold","episode":"shop-608","confidence":0.95},
+    {"start":741.0,"end":741.6,"label":"hold","episode":"scoreboard-741","confidence":0.95},
+    {"start":759.5,"end":787.0,"label":"hold","episode":"dead-spectating","confidence":0.95}
+  ],
+  "correction_evidence": [
+    {"start":759.5,"end":787.0,"reason":"Visible View Death Replay / respawn countdown. Arlott is dead; joystick-circle detections and skill cooldown changes are not player actions.","frame":"training/data/v2/review/0766.00.jpg"},
+    {"time":327.991,"reason":"Old weak retreat label is not supported: hero moves toward the fight at 326–328 seconds. Excluded from training."}
+  ]
+}

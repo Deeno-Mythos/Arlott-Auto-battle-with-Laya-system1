@@ -1,0 +1,124 @@
+{
+  "scope": "OFFLINE replay: decoded/published host frame to real loopback socket send. Not game event to Android touch.",
+  "phone_access": false,
+  "models": "candidate ONNX FP32; candidate not promoted because accuracy gates failed",
+  "source_video_fps": 29.952,
+  "sixty_fps_warning": "60 Hz is synthetic pacing/reuse of 30 fps source frames; no native 60 fps phone capture was tested.",
+  "excluded": [
+    "phone display/capture/encoding",
+    "USB input/output",
+    "Android input registration",
+    "browser JPEG display load"
+  ],
+  "configuration": "event-driven latest frame; one OpenCV/ONNX CPU thread; no background Laya; fixed fallback combos disabled",
+  "recorded_file_decode": {
+    "n": 115,
+    "p50_ms": 1.0789,
+    "p95_ms": 1.9718299999999997,
+    "p99_ms": 2.303558
+  },
+  "bgr_conversion_and_normalization": {
+    "n": 115,
+    "p50_ms": 2.3391,
+    "p95_ms": 3.0798099999999997,
+    "p99_ms": 3.5918759999999996
+  },
+  "rates": {
+    "30": {
+      "published_frames": 300,
+      "processed_frames": 299,
+      "frames_not_processed": 1,
+      "wall_seconds": 10.048138300015125,
+      "stages": {
+        "queue_ms": {
+          "n": 299,
+          "p50_ms": 0.07910002022981644,
+          "p95_ms": 0.1803299761377273,
+          "p99_ms": 0.2857460104860352
+        },
+        "perception_ms": {
+          "n": 299,
+          "p50_ms": 16.846599988639355,
+          "p95_ms": 23.31512998207472,
+          "p99_ms": 25.051333996234455
+        },
+        "policy_guard_ms": {
+          "n": 299,
+          "p50_ms": 0.19809999503195286,
+          "p95_ms": 0.3309399646241218,
+          "p99_ms": 0.4902920033782715
+        },
+        "dispatch_ms": {
+          "n": 299,
+          "p50_ms": 0.09469996439293027,
+          "p95_ms": 0.20817001350224015,
+          "p99_ms": 0.2942559693474321
+        },
+        "decoded_to_dispatch_ms": {
+          "n": 299,
+          "p50_ms": 17.202000017277896,
+          "p95_ms": 23.682659980840977,
+          "p99_ms": 26.10745001467876
+        }
+      },
+      "actual_loopback_down_or_move_sent": {
+        "n": 155,
+        "p50_ms": 17.642199993133545,
+        "p95_ms": 23.04006001213565,
+        "p99_ms": 25.36463804426604
+      },
+      "neural_source": "combat fallback",
+      "host_processing_target_met": true
+    },
+    "60": {
+      "published_frames": 300,
+      "processed_frames": 274,
+      "frames_not_processed": 26,
+      "wall_seconds": 5.064100000017788,
+      "stages": {
+        "queue_ms": {
+          "n": 274,
+          "p50_ms": 6.7909000208601356,
+          "p95_ms": 15.338944992981851,
+          "p99_ms": 16.201465005287897
+        },
+        "perception_ms": {
+          "n": 274,
+          "p50_ms": 17.852849996415898,
+          "p95_ms": 21.86503499688115,
+          "p99_ms": 22.639049990102645
+        },
+        "policy_guard_ms": {
+          "n": 274,
+          "p50_ms": 0.20315003348514438,
+          "p95_ms": 0.32900500227697194,
+          "p99_ms": 0.42710901936516155
+        },
+        "dispatch_ms": {
+          "n": 274,
+          "p50_ms": 0.09625000529922545,
+          "p95_ms": 0.20841995719820258,
+          "p99_ms": 0.28095202811527986
+        },
+        "decoded_to_dispatch_ms": {
+          "n": 274,
+          "p50_ms": 25.557250017300248,
+          "p95_ms": 34.306620023562566,
+          "p99_ms": 36.81002301047556
+        }
+      },
+      "actual_loopback_down_or_move_sent": {
+        "n": 141,
+        "p50_ms": 26.26569999847561,
+        "p95_ms": 35.237699979916215,
+        "p99_ms": 37.555419991258525
+      },
+      "neural_source": "combat fallback",
+      "host_processing_target_met": false
+    }
+  },
+  "requested_true_event_touch_p95": {
+    "30fps_33ms": "UNVERIFIED",
+    "60fps_16ms": "UNVERIFIED"
+  }
+}

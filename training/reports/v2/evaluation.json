@@ -1,0 +1,1556 @@
+{
+  "method": "Standalone causal supervised student; full Laya removed from per-frame inference. No future labels or joystick in features.",
+  "selection": {
+    "seed": 44,
+    "epoch": 56,
+    "score": 0.5402199999999999,
+    "validation": {
+      "n": 92,
+      "accuracy": 0.663,
+      "macro_f1": 0.5677,
+      "balanced_accuracy": 0.5872,
+      "nll": 0.9902,
+      "ece": 0.0937,
+      "confidence_0.6_coverage": 0.6413,
+      "confidence_0.6_accuracy": 0.8475,
+      "per_action": {
+        "hold": {
+          "n": 11,
+          "precision": 0.9091,
+          "recall": 0.9091,
+          "f1": 0.9091
+        },
+        "approach": {
+          "n": 2,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "retreat": {
+          "n": 12,
+          "precision": 0.3333,
+          "recall": 0.0833,
+          "f1": 0.1333
+        },
+        "attack": {
+          "n": 3,
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667
+        },
+        "skill1": {
+          "n": 6,
+          "precision": 0.4444,
+          "recall": 0.6667,
+          "f1": 0.5333
+        },
+        "skill2": {
+          "n": 9,
+          "precision": 0.4118,
+          "recall": 0.7778,
+          "f1": 0.5385
+        },
+        "ultimate": {
+          "n": 3,
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5
+        },
+        "reposition": {
+          "n": 46,
+          "precision": 0.7609,
+          "recall": 0.7609,
+          "f1": 0.7609
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          7,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          4,
+          4,
+          0,
+          35
+        ]
+      ]
+    },
+    "validation_skills": {
+      "n": 18,
+      "accuracy": 0.6667,
+      "macro_f1": 0.6667,
+      "balanced_accuracy": 0.5926,
+      "nll": 0.8747,
+      "ece": 0.072,
+      "confidence_0.6_coverage": 0.6111,
+      "confidence_0.6_accuracy": 0.9091,
+      "per_action": {
+        "hold": {
+          "n": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "approach": {
+          "n": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "retreat": {
+          "n": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "attack": {
+          "n": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "skill1": {
+          "n": 6,
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8
+        },
+        "skill2": {
+          "n": 9,
+          "precision": 0.6364,
+          "recall": 0.7778,
+          "f1": 0.7
+        },
+        "ultimate": {
+          "n": 3,
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5
+        },
+        "reposition": {
+          "n": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          7,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "config": {
+    "schema": "arlott-rt-v2",
+    "actions": [
+      "hold",
+      "approach",
+      "retreat",
+      "attack",
+      "skill1",
+      "skill2",
+      "ultimate",
+      "reposition"
+    ],
+    "context_seconds": 0.875,
+    "context_offsets": [
+      0.875,
+      0.75,
+      0.625,
+      0.5,
+      0.375,
+      0.25,
+      0.125,
+      0
+    ],
+    "feature_dimension": 99,
+    "input_dimension": 792,
+    "hidden": [
+      96,
+      48
+    ],
+    "temperature": 1.100000023841858,
+    "selection": {
+      "seed": 44,
+      "epoch": 56,
+      "score": 0.5402199999999999,
+      "validation": {
+        "n": 92,
+        "accuracy": 0.663,
+        "macro_f1": 0.5677,
+        "balanced_accuracy": 0.5872,
+        "nll": 0.9902,
+        "ece": 0.0937,
+        "confidence_0.6_coverage": 0.6413,
+        "confidence_0.6_accuracy": 0.8475,
+        "per_action": {
+          "hold": {
+            "n": 11,
+            "precision": 0.9091,
+            "recall": 0.9091,
+            "f1": 0.9091
+          },
+          "approach": {
+            "n": 2,
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1": 0.5
+          },
+          "retreat": {
+            "n": 12,
+            "precision": 0.3333,
+            "recall": 0.0833,
+            "f1": 0.1333
+          },
+          "attack": {
+            "n": 3,
+            "precision": 0.6667,
+            "recall": 0.6667,
+            "f1": 0.6667
+          },
+          "skill1": {
+            "n": 6,
+            "precision": 0.4444,
+            "recall": 0.6667,
+            "f1": 0.5333
+          },
+          "skill2": {
+            "n": 9,
+            "precision": 0.4118,
+            "recall": 0.7778,
+            "f1": 0.5385
+          },
+          "ultimate": {
+            "n": 3,
+            "precision": 1.0,
+            "recall": 0.3333,
+            "f1": 0.5
+          },
+          "reposition": {
+            "n": 46,
+            "precision": 0.7609,
+            "recall": 0.7609,
+            "f1": 0.7609
+          }
+        },
+        "confusion": [
+          [
+            10,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            9
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            7,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            4,
+            4,
+            0,
+            35
+          ]
+        ]
+      },
+      "validation_skills": {
+        "n": 18,
+        "accuracy": 0.6667,
+        "macro_f1": 0.6667,
+        "balanced_accuracy": 0.5926,
+        "nll": 0.8747,
+        "ece": 0.072,
+        "confidence_0.6_coverage": 0.6111,
+        "confidence_0.6_accuracy": 0.9091,
+        "per_action": {
+          "hold": {
+            "n": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "approach": {
+            "n": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "retreat": {
+            "n": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "attack": {
+            "n": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "skill1": {
+            "n": 6,
+            "precision": 1.0,
+            "recall": 0.6667,
+            "f1": 0.8
+          },
+          "skill2": {
+            "n": 9,
+            "precision": 0.6364,
+            "recall": 0.7778,
+            "f1": 0.7
+          },
+          "ultimate": {
+            "n": 3,
+            "precision": 1.0,
+            "recall": 0.3333,
+            "f1": 0.5
+          },
+          "reposition": {
+            "n": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            7,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "model_parameters": 81176,
+    "source": "same supplied video; no additional recordings",
+    "promotion": "candidate only; true event-to-phone-touch latency unmeasured"
+  },
+  "curve": [
+    {
+      "seed": 43,
+      "epoch": 20,
+      "loss": 0.21,
+      "validation_score": 0.3486,
+      "best": 0.4865
+    },
+    {
+      "seed": 43,
+      "epoch": 40,
+      "loss": 0.1835,
+      "validation_score": 0.338,
+      "best": 0.4865
+    },
+    {
+      "seed": 44,
+      "epoch": 20,
+      "loss": 0.2064,
+      "validation_score": 0.429,
+      "best": 0.4865
+    },
+    {
+      "seed": 44,
+      "epoch": 40,
+      "loss": 0.1825,
+      "validation_score": 0.5397,
+      "best": 0.5397
+    },
+    {
+      "seed": 44,
+      "epoch": 60,
+      "loss": 0.1786,
+      "validation_score": 0.4137,
+      "best": 0.5402
+    },
+    {
+      "seed": 44,
+      "epoch": 80,
+      "loss": 0.1765,
+      "validation_score": 0.4402,
+      "best": 0.5402
+    },
+    {
+      "seed": 44,
+      "epoch": 100,
+      "loss": 0.1752,
+      "validation_score": 0.4411,
+      "best": 0.5402
+    },
+    {
+      "seed": 45,
+      "epoch": 20,
+      "loss": 0.2063,
+      "validation_score": 0.5332,
+      "best": 0.5402
+    },
+    {
+      "seed": 45,
+      "epoch": 40,
+      "loss": 0.1833,
+      "validation_score": 0.4472,
+      "best": 0.5402
+    },
+    {
+      "seed": 45,
+      "epoch": 60,
+      "loss": 0.1785,
+      "validation_score": 0.5071,
+      "best": 0.5402
+    },
+    {
+      "seed": 45,
+      "epoch": 80,
+      "loss": 0.1765,
+      "validation_score": 0.5099,
+      "best": 0.5402
+    },
+    {
+      "seed": 45,
+      "epoch": 100,
+      "loss": 0.1755,
+      "validation_score": 0.451,
+      "best": 0.5402
+    }
+  ],
+  "seconds": 7.217999999993481,
+  "v2_manifest": {
+    "source_sha256": "1d9b7db7a719af56571101fa2fe1d362dd0f05898d9fdbd7193716f1746e791d",
+    "annotation_sha256": "d7bb2ec711b806ca9259aa35c029834014afd7cbbc45e24dcdcd57ae64645d3b",
+    "warnings": [
+      "One edited match only. Dense labels are correlated frames, not new independent recordings.",
+      "Explicit labels received assistant visual review, not human expert confirmation.",
+      "Frozen 94-example/24-cast benchmark retained unchanged and scored separately.",
+      "Retreat label at 766.293 is actually death. A safe policy cannot score 0.80 retreat F1 on that single invalid example."
+    ],
+    "corrections": [
+      {
+        "id": "test-0084",
+        "time": 762.553,
+        "old_label": "skill2",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0085",
+        "time": 764.156,
+        "old_label": "skill2",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0086",
+        "time": 766.293,
+        "old_label": "retreat",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0087",
+        "time": 768.162,
+        "old_label": "reposition",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0088",
+        "time": 770.032,
+        "old_label": "reposition",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0089",
+        "time": 771.902,
+        "old_label": "reposition",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0090",
+        "time": 774.038,
+        "old_label": "reposition",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0091",
+        "time": 776.042,
+        "old_label": "reposition",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0092",
+        "time": 777.911,
+        "old_label": "reposition",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      },
+      {
+        "id": "test-0094",
+        "time": 780.582,
+        "old_label": "hold",
+        "audited_label": "hold",
+        "reason": "dead spectating"
+      }
+    ],
+    "splits": {
+      "train": {
+        "rows": 404,
+        "labels": {
+          "reposition": 151,
+          "hold": 37,
+          "attack": 55,
+          "skill2": 62,
+          "skill1": 31,
+          "approach": 21,
+          "retreat": 37,
+          "ultimate": 10
+        },
+        "explicit_episodes": {
+          "attack": 7,
+          "retreat": 5
+        }
+      },
+      "validation": {
+        "rows": 92,
+        "labels": {
+          "reposition": 46,
+          "hold": 11,
+          "skill1": 6,
+          "skill2": 9,
+          "approach": 2,
+          "ultimate": 3,
+          "retreat": 12,
+          "attack": 3
+        },
+        "explicit_episodes": {
+          "attack": 1,
+          "retreat": 1
+        }
+      },
+      "test": {
+        "rows": 169,
+        "labels": {
+          "reposition": 45,
+          "hold": 70,
+          "skill2": 15,
+          "skill1": 5,
+          "ultimate": 2,
+          "approach": 4,
+          "retreat": 16,
+          "attack": 12
+        },
+        "explicit_episodes": {
+          "attack": 1,
+          "retreat": 2
+        }
+      }
+    }
+  },
+  "audited": {
+    "train": {
+      "n": 404,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "nll": 0.0445,
+      "ece": 0.0434,
+      "confidence_0.6_coverage": 1.0,
+      "confidence_0.6_accuracy": 1.0,
+      "per_action": {
+        "hold": {
+          "n": 37,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "approach": {
+          "n": 21,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "retreat": {
+          "n": 37,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "attack": {
+          "n": 55,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "skill1": {
+          "n": 31,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "skill2": {
+          "n": 62,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "ultimate": {
+          "n": 10,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "reposition": {
+          "n": 151,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "confusion": [
+        [
+          37,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          37,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          55,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          31,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          62,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          151
+        ]
+      ]
+    },
+    "validation": {
+      "n": 92,
+      "accuracy": 0.663,
+      "macro_f1": 0.5677,
+      "balanced_accuracy": 0.5872,
+      "nll": 0.9845,
+      "ece": 0.0985,
+      "confidence_0.6_coverage": 0.5978,
+      "confidence_0.6_accuracy": 0.8909,
+      "per_action": {
+        "hold": {
+          "n": 11,
+          "precision": 0.9091,
+          "recall": 0.9091,
+          "f1": 0.9091
+        },
+        "approach": {
+          "n": 2,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "retreat": {
+          "n": 12,
+          "precision": 0.3333,
+          "recall": 0.0833,
+          "f1": 0.1333
+        },
+        "attack": {
+          "n": 3,
+          "precision": 0.6667,
+          "recall": 0.6667,
+          "f1": 0.6667
+        },
+        "skill1": {
+          "n": 6,
+          "precision": 0.4444,
+          "recall": 0.6667,
+          "f1": 0.5333
+        },
+        "skill2": {
+          "n": 9,
+          "precision": 0.4118,
+          "recall": 0.7778,
+          "f1": 0.5385
+        },
+        "ultimate": {
+          "n": 3,
+          "precision": 1.0,
+          "recall": 0.3333,
+          "f1": 0.5
+        },
+        "reposition": {
+          "n": 46,
+          "precision": 0.7609,
+          "recall": 0.7609,
+          "f1": 0.7609
+        }
+      },
+      "confusion": [
+        [
+          10,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          7,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          4,
+          4,
+          0,
+          35
+        ]
+      ]
+    },
+    "test": {
+      "n": 169,
+      "accuracy": 0.3728,
+      "macro_f1": 0.2566,
+      "balanced_accuracy": 0.3315,
+      "nll": 1.841,
+      "ece": 0.2492,
+      "confidence_0.6_coverage": 0.5385,
+      "confidence_0.6_accuracy": 0.4505,
+      "per_action": {
+        "hold": {
+          "n": 70,
+          "precision": 0.9524,
+          "recall": 0.2857,
+          "f1": 0.4396
+        },
+        "approach": {
+          "n": 4,
+          "precision": 0.0357,
+          "recall": 0.25,
+          "f1": 0.0625
+        },
+        "retreat": {
+          "n": 16,
+          "precision": 0.5714,
+          "recall": 0.25,
+          "f1": 0.3478
+        },
+        "attack": {
+          "n": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "skill1": {
+          "n": 5,
+          "precision": 0.1818,
+          "recall": 0.8,
+          "f1": 0.2963
+        },
+        "skill2": {
+          "n": 15,
+          "precision": 0.3889,
+          "recall": 0.4667,
+          "f1": 0.4242
+        },
+        "ultimate": {
+          "n": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "reposition": {
+          "n": 45,
+          "precision": 0.403,
+          "recall": 0.6,
+          "f1": 0.4821
+        }
+      },
+      "confusion": [
+        [
+          20,
+          26,
+          0,
+          0,
+          4,
+          2,
+          2,
+          16
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          2,
+          2,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          2,
+          0,
+          6,
+          7,
+          1,
+          27
+        ]
+      ]
+    }
+  },
+  "frozen_original": {
+    "n": 94,
+    "accuracy": 0.5213,
+    "macro_f1": 0.312,
+    "balanced_accuracy": 0.3576,
+    "nll": 1.5342,
+    "ece": 0.1271,
+    "confidence_0.6_coverage": 0.5745,
+    "confidence_0.6_accuracy": 0.6667,
+    "per_action": {
+      "hold": {
+        "n": 10,
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1": 0.9
+      },
+      "approach": {
+        "n": 5,
+        "precision": 0.1429,
+        "recall": 0.2,
+        "f1": 0.1667
+      },
+      "retreat": {
+        "n": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attack": {
+        "n": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "skill1": {
+        "n": 5,
+        "precision": 0.2222,
+        "recall": 0.8,
+        "f1": 0.3478
+      },
+      "skill2": {
+        "n": 17,
+        "precision": 0.4667,
+        "recall": 0.4118,
+        "f1": 0.4375
+      },
+      "ultimate": {
+        "n": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "reposition": {
+        "n": 51,
+        "precision": 0.7778,
+        "recall": 0.549,
+        "f1": 0.6437
+      }
+    },
+    "confusion": [
+      [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        3,
+        7,
+        2,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        4,
+        2,
+        0,
+        7,
+        8,
+        1,
+        28
+      ]
+    ]
+  },
+  "frozen_24_casts": {
+    "n": 24,
+    "accuracy": 0.4583,
+    "macro_f1": 0.3849,
+    "balanced_accuracy": 0.4039,
+    "nll": 1.6329,
+    "ece": 0.2216,
+    "confidence_0.6_coverage": 0.5,
+    "confidence_0.6_accuracy": 0.6667,
+    "per_action": {
+      "hold": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "approach": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "retreat": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attack": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "skill1": {
+        "n": 5,
+        "precision": 0.4444,
+        "recall": 0.8,
+        "f1": 0.5714
+      },
+      "skill2": {
+        "n": 17,
+        "precision": 1.0,
+        "recall": 0.4118,
+        "f1": 0.5833
+      },
+      "ultimate": {
+        "n": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "reposition": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        3,
+        7,
+        2,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "criteria": {
+    "skill_18_of_24": false,
+    "attack_f1_0.80": false,
+    "retreat_f1_0.80_valid": false,
+    "retreat_reason": "Sole original retreat is dead/spectating; audited set has only two retreat episodes.",
+    "true_event_touch_latency": "unverified; no phone game running"
+  }
+}

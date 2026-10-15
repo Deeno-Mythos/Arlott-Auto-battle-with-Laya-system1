@@ -1,0 +1,1088 @@
+{
+  "dataset_audit": {
+    "train": {
+      "labels": {
+        "reposition": 151,
+        "hold": 33,
+        "attack": 14,
+        "skill2": 62,
+        "skill1": 31,
+        "approach": 22,
+        "retreat": 4,
+        "ultimate": 10
+      },
+      "identical_state_label_conflicts": 49,
+      "best_possible_accuracy_for_identical_static_features": 0.9571865443425076,
+      "by_action": {
+        "reposition": {
+          "n": 151,
+          "target_missing": 138,
+          "health_missing_or_zero": 15,
+          "evidence": {
+            "joystick_direction_weak": 139,
+            "assistant_visual_review": 12
+          },
+          "times": [
+            35.123,
+            38.061,
+            41.4,
+            44.071,
+            45.94,
+            49.813,
+            53.152,
+            55.155,
+            60.497,
+            62.366,
+            64.904,
+            66.907,
+            69.044,
+            71.181,
+            83.2,
+            85.47,
+            87.74,
+            93.349,
+            95.887,
+            98.424,
+            100.694,
+            106.036,
+            112.847,
+            115.251,
+            125.935,
+            132.479,
+            134.482,
+            136.619,
+            138.488,
+            140.759,
+            142.628,
+            144.498,
+            148.237,
+            153.178,
+            166.132,
+            168.803,
+            172.676,
+            174.679,
+            176.816,
+            178.686,
+            180.689,
+            184.028,
+            187.366,
+            189.236,
+            191.506,
+            196.715,
+            202.591,
+            205.796,
+            207.799,
+            209.802,
+            215.144,
+            217.147,
+            219.952,
+            220.62,
+            221.955,
+            223.958,
+            226.763,
+            228.632,
+            236.378,
+            244.525,
+            246.394,
+            248.264,
+            250.134,
+            252.003,
+            254.274,
+            255.876,
+            256.143,
+            256.677,
+            257.879,
+            258.948,
+            263.221,
+            265.091,
+            269.498,
+            272.703,
+            275.107,
+            277.511,
+            280.582,
+            284.589,
+            306.624,
+            308.761,
+            313.568,
+            316.64,
+            318.51,
+            323.05,
+            325.855,
+            334.402,
+            337.073,
+            339.476,
+            341.48,
+            343.483,
+            345.353,
+            347.356,
+            349.225,
+            351.095,
+            351.896,
+            352.698,
+            353.098,
+            353.9,
+            355.101,
+            356.971,
+            360.31,
+            363.515,
+            367.121,
+            369.257,
+            371.127,
+            373.264,
+            375.935,
+            383.146,
+            385.283,
+            387.42,
+            389.557,
+            391.426,
+            392.895,
+            393.429,
+            393.697,
+            394.899,
+            395.299,
+            397.436,
+            399.306,
+            401.576,
+            405.449,
+            411.592,
+            414.129,
+            416.4,
+            418.269,
+            420.406,
+            425.614,
+            427.484,
+            430.823,
+            432.692,
+            435.497,
+            438.301,
+            440.438,
+            442.441,
+            444.578,
+            449.653,
+            451.79,
+            454.193,
+            456.197,
+            458.066,
+            461.806,
+            464.343,
+            471.955,
+            473.825,
+            479.434,
+            481.303,
+            485.043,
+            486.912,
+            489.183,
+            491.052,
+            495.726
+          ]
+        },
+        "hold": {
+          "n": 33,
+          "target_missing": 33,
+          "health_missing_or_zero": 33,
+          "evidence": {
+            "hud_absent_no_control": 33
+          },
+          "times": [
+            36.725,
+            48.077,
+            57.559,
+            69.444,
+            76.656,
+            92.147,
+            102.831,
+            125.668,
+            147.436,
+            159.455,
+            166.533,
+            174.947,
+            182.425,
+            193.777,
+            200.988,
+            211.672,
+            221.688,
+            241.319,
+            269.097,
+            281.116,
+            324.252,
+            336.538,
+            375.134,
+            384.081,
+            410.791,
+            427.083,
+            437.901,
+            447.917,
+            460.203,
+            478.365,
+            485.443,
+            492.521,
+            499.599
+          ]
+        },
+        "attack": {
+          "n": 14,
+          "target_missing": 12,
+          "health_missing_or_zero": 1,
+          "evidence": {
+            "assistant_visual_review": 14
+          },
+          "times": [
+            57.959,
+            58.494,
+            59.428,
+            59.963,
+            89.877,
+            90.411,
+            90.946,
+            144.899,
+            145.433,
+            196.982,
+            197.382,
+            310.897,
+            311.432,
+            466.88
+          ]
+        },
+        "skill2": {
+          "n": 62,
+          "target_missing": 35,
+          "health_missing_or_zero": 2,
+          "evidence": {
+            "observed_ready_to_cooldown": 62
+          },
+          "times": [
+            72.249,
+            79.594,
+            82.399,
+            92.548,
+            110.844,
+            119.124,
+            146.635,
+            152.377,
+            155.315,
+            163.595,
+            165.331,
+            171.074,
+            183.226,
+            185.497,
+            190.705,
+            192.708,
+            194.177,
+            195.246,
+            198.05,
+            211.405,
+            212.74,
+            214.343,
+            229.434,
+            230.636,
+            232.372,
+            235.577,
+            238.381,
+            267.495,
+            268.697,
+            270.299,
+            271.902,
+            278.446,
+            281.384,
+            288.194,
+            289.931,
+            295.272,
+            298.21,
+            304.087,
+            310.63,
+            329.728,
+            330.796,
+            332.265,
+            364.984,
+            366.319,
+            381.01,
+            382.212,
+            409.322,
+            410.524,
+            423.077,
+            439.503,
+            459.936,
+            463.542,
+            466.48,
+            467.815,
+            471.154,
+            473.024,
+            476.896,
+            477.965,
+            484.241,
+            492.121,
+            494.124,
+            497.329
+          ]
+        },
+        "skill1": {
+          "n": 31,
+          "target_missing": 23,
+          "health_missing_or_zero": 1,
+          "evidence": {
+            "observed_ready_to_cooldown": 31
+          },
+          "times": [
+            73.451,
+            81.864,
+            91.747,
+            96.822,
+            108.574,
+            118.857,
+            146.368,
+            151.309,
+            155.048,
+            164.797,
+            173.878,
+            182.959,
+            199.386,
+            212.34,
+            230.369,
+            238.114,
+            268.429,
+            279.514,
+            288.595,
+            310.363,
+            322.249,
+            330.529,
+            380.743,
+            410.256,
+            422.409,
+            429.621,
+            439.236,
+            460.604,
+            468.616,
+            477.698,
+            494.925
+          ]
+        },
+        "approach": {
+          "n": 22,
+          "target_missing": 0,
+          "health_missing_or_zero": 6,
+          "evidence": {
+            "joystick_direction_weak": 22
+          },
+          "times": [
+            74.252,
+            78.526,
+            109.776,
+            117.521,
+            121.928,
+            123.798,
+            128.472,
+            130.342,
+            158.12,
+            159.989,
+            233.44,
+            239.583,
+            261.084,
+            286.458,
+            290.865,
+            292.735,
+            301.683,
+            321.181,
+            377.938,
+            403.579,
+            446.581,
+            475.694
+          ]
+        },
+        "retreat": {
+          "n": 4,
+          "target_missing": 0,
+          "health_missing_or_zero": 1,
+          "evidence": {
+            "joystick_direction_weak": 4
+          },
+          "times": [
+            120.059,
+            299.412,
+            327.991,
+            469.418
+          ]
+        },
+        "ultimate": {
+          "n": 10,
+          "target_missing": 4,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "observed_ready_to_cooldown": 10
+          },
+          "times": [
+            156.918,
+            169.605,
+            213.542,
+            270.833,
+            296.207,
+            323.851,
+            366.052,
+            437.5,
+            463.275,
+            493.857
+          ]
+        }
+      }
+    },
+    "validation": {
+      "labels": {
+        "reposition": 47,
+        "hold": 9,
+        "skill1": 6,
+        "skill2": 9,
+        "approach": 2,
+        "ultimate": 3,
+        "attack": 1
+      },
+      "identical_state_label_conflicts": 9,
+      "best_possible_accuracy_for_identical_static_features": 0.961038961038961,
+      "by_action": {
+        "reposition": {
+          "n": 47,
+          "target_missing": 44,
+          "health_missing_or_zero": 1,
+          "evidence": {
+            "assistant_visual_review": 9,
+            "joystick_direction_weak": 38
+          },
+          "times": [
+            509.882,
+            510.684,
+            511.886,
+            512.687,
+            514.557,
+            516.827,
+            518.83,
+            522.837,
+            524.706,
+            526.843,
+            528.713,
+            531.116,
+            533.253,
+            535.657,
+            550.481,
+            552.35,
+            555.288,
+            557.425,
+            557.959,
+            558.627,
+            559.428,
+            561.298,
+            563.301,
+            565.171,
+            567.575,
+            571.047,
+            574.519,
+            576.389,
+            578.793,
+            579.995,
+            580.662,
+            581.998,
+            584.402,
+            587.073,
+            589.877,
+            591.747,
+            593.75,
+            596.02,
+            599.626,
+            602.03,
+            604.834,
+            606.704,
+            608.974,
+            611.645,
+            613.916,
+            616.052,
+            617.922
+          ]
+        },
+        "hold": {
+          "n": 9,
+          "target_missing": 9,
+          "health_missing_or_zero": 9,
+          "evidence": {
+            "hud_absent_no_control": 9
+          },
+          "times": [
+            515.224,
+            522.569,
+            540.999,
+            556.357,
+            566.373,
+            584.135,
+            596.822,
+            605.502,
+            619.792
+          ]
+        },
+        "skill1": {
+          "n": 6,
+          "target_missing": 4,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "observed_ready_to_cooldown": 6
+          },
+          "times": [
+            520.032,
+            542.468,
+            547.943,
+            583.6,
+            603.632,
+            619.257
+          ]
+        },
+        "skill2": {
+          "n": 9,
+          "target_missing": 5,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "observed_ready_to_cooldown": 9
+          },
+          "times": [
+            520.833,
+            522.035,
+            542.735,
+            547.009,
+            548.21,
+            583.066,
+            589.076,
+            603.9,
+            619.525
+          ]
+        },
+        "approach": {
+          "n": 2,
+          "target_missing": 0,
+          "health_missing_or_zero": 1,
+          "evidence": {
+            "joystick_direction_weak": 2
+          },
+          "times": [
+            537.527,
+            545.673
+          ]
+        },
+        "ultimate": {
+          "n": 3,
+          "target_missing": 1,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "observed_ready_to_cooldown": 3
+          },
+          "times": [
+            540.732,
+            549.546,
+            588.809
+          ]
+        },
+        "attack": {
+          "n": 1,
+          "target_missing": 1,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "assistant_visual_review": 1
+          },
+          "times": [
+            606.971
+          ]
+        }
+      }
+    },
+    "test": {
+      "labels": {
+        "reposition": 51,
+        "hold": 10,
+        "skill2": 17,
+        "skill1": 5,
+        "ultimate": 2,
+        "approach": 5,
+        "attack": 3,
+        "retreat": 1
+      },
+      "identical_state_label_conflicts": 2,
+      "best_possible_accuracy_for_identical_static_features": 0.9893617021276596,
+      "by_action": {
+        "reposition": {
+          "n": 51,
+          "target_missing": 41,
+          "health_missing_or_zero": 13,
+          "evidence": {
+            "joystick_direction_weak": 45,
+            "assistant_visual_review": 6
+          },
+          "times": [
+            631.01,
+            633.013,
+            635.016,
+            638.355,
+            640.224,
+            642.094,
+            644.631,
+            647.035,
+            648.905,
+            649.706,
+            649.973,
+            655.849,
+            658.12,
+            660.39,
+            662.66,
+            664.931,
+            667.334,
+            670.005,
+            671.875,
+            673.745,
+            676.149,
+            681.09,
+            685.497,
+            687.5,
+            689.637,
+            691.506,
+            698.05,
+            699.92,
+            702.324,
+            709.268,
+            711.806,
+            715.678,
+            719.685,
+            721.554,
+            724.359,
+            736.111,
+            737.981,
+            741.72,
+            741.987,
+            742.655,
+            743.99,
+            745.994,
+            748.531,
+            750.401,
+            759.348,
+            768.162,
+            770.032,
+            771.902,
+            774.038,
+            776.042,
+            777.911
+          ]
+        },
+        "hold": {
+          "n": 10,
+          "target_missing": 10,
+          "health_missing_or_zero": 10,
+          "evidence": {
+            "hud_absent_no_control": 10
+          },
+          "times": [
+            636.218,
+            651.976,
+            667.601,
+            679.621,
+            695.513,
+            705.796,
+            714.744,
+            736.512,
+            754.941,
+            780.582
+          ]
+        },
+        "skill2": {
+          "n": 17,
+          "target_missing": 9,
+          "health_missing_or_zero": 4,
+          "evidence": {
+            "observed_ready_to_cooldown": 17
+          },
+          "times": [
+            651.576,
+            656.918,
+            678.552,
+            680.288,
+            684.295,
+            686.565,
+            688.835,
+            695.112,
+            701.389,
+            705.529,
+            706.864,
+            753.205,
+            754.674,
+            755.743,
+            758.547,
+            762.553,
+            764.156
+          ]
+        },
+        "skill1": {
+          "n": 5,
+          "target_missing": 2,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "observed_ready_to_cooldown": 5
+          },
+          "times": [
+            679.354,
+            686.298,
+            697.115,
+            706.597,
+            713.942
+          ]
+        },
+        "ultimate": {
+          "n": 2,
+          "target_missing": 0,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "observed_ready_to_cooldown": 2
+          },
+          "times": [
+            692.308,
+            756.01
+          ]
+        },
+        "approach": {
+          "n": 5,
+          "target_missing": 0,
+          "health_missing_or_zero": 2,
+          "evidence": {
+            "joystick_direction_weak": 5
+          },
+          "times": [
+            693.376,
+            717.815,
+            728.365,
+            731.17,
+            757.078
+          ]
+        },
+        "attack": {
+          "n": 3,
+          "target_missing": 3,
+          "health_missing_or_zero": 0,
+          "evidence": {
+            "assistant_visual_review": 3
+          },
+          "times": [
+            715.946,
+            716.48,
+            716.88
+          ]
+        },
+        "retreat": {
+          "n": 1,
+          "target_missing": 0,
+          "health_missing_or_zero": 1,
+          "evidence": {
+            "joystick_direction_weak": 1
+          },
+          "times": [
+            766.293
+          ]
+        }
+      }
+    }
+  },
+  "baseline_test": {
+    "n": 94,
+    "accuracy": 0.5745,
+    "macro_f1": 0.3252,
+    "balanced_accuracy": 0.3596,
+    "nll": 1.3301,
+    "ece": 0.2872,
+    "confidence_0.6_coverage": 0.4043,
+    "confidence_0.6_accuracy": 0.5,
+    "per_action": {
+      "hold": {
+        "n": 10,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "approach": {
+        "n": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "retreat": {
+        "n": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attack": {
+        "n": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "skill1": {
+        "n": 5,
+        "precision": 0.1667,
+        "recall": 0.2,
+        "f1": 0.1818
+      },
+      "skill2": {
+        "n": 17,
+        "precision": 0.45,
+        "recall": 0.5294,
+        "f1": 0.4865
+      },
+      "ultimate": {
+        "n": 2,
+        "precision": 0.125,
+        "recall": 0.5,
+        "f1": 0.2
+      },
+      "reposition": {
+        "n": 51,
+        "precision": 0.8462,
+        "recall": 0.6471,
+        "f1": 0.7333
+      }
+    },
+    "confusion": [
+      [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        9,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        1,
+        5,
+        6,
+        33
+      ]
+    ]
+  },
+  "baseline_skill_casts": {
+    "n": 24,
+    "accuracy": 0.4583,
+    "macro_f1": 0.5271,
+    "balanced_accuracy": 0.4098,
+    "nll": 1.4865,
+    "ece": 0.1357,
+    "confidence_0.6_coverage": 0.4583,
+    "confidence_0.6_accuracy": 0.7273,
+    "per_action": {
+      "hold": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "approach": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "retreat": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "attack": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "skill1": {
+        "n": 5,
+        "precision": 0.25,
+        "recall": 0.2,
+        "f1": 0.2222
+      },
+      "skill2": {
+        "n": 17,
+        "precision": 1.0,
+        "recall": 0.5294,
+        "f1": 0.6923
+      },
+      "ultimate": {
+        "n": 2,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "reposition": {
+        "n": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "confusion": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        9,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "latency_design_limits_ms": {
+    "watchdog_poll": 50,
+    "combat_interval": 120,
+    "blocking_tap_hold": 55,
+    "full_laya_p95": 453
+  },
+  "hardware": "Intel i3-1215U / Intel UHD; no NVIDIA GPU",
+  "locked": {
+    "train.jsonl": "eab9c7c2ced579e23d7f06ccd2ec6a2c3df9d2aadc8c056464c2aa479266ffb7",
+    "validation.jsonl": "6fcc3b8bed671bfcee88cca04f77b9a96f9636b1f629e881404049dbfadf4e72",
+    "test.jsonl": "26024d6a8a8c30ebd2fea540314c93835b5936831202fd55559f540c2aaf280b",
+    "observations.jsonl": "18b04adeee1e0fa3027fd256ef8d57f6d2fc5c903dbcf0cf4b7aebe19cc004af"
+  },
+  "causes": [
+    "Attack/retreat have 14/4 train examples; validation has 1/0.",
+    "Retreat heuristic requires target, joystick opposite target AND health below 0.6; high-health retreats become reposition.",
+    "Instantaneous state cannot observe damage trend, target motion, repeated attacks or skill transitions.",
+    "Cooldown transitions are weak labels, not expert-verified skill casts.",
+    "Action-event labels and movement-state labels have different durations; one-label sampling hides simultaneous movement/attack.",
+    "The 50 ms poll, 120 ms cadence, 55 ms blocking tap and 453 ms transformer exceed requested latency budgets independently."
+  ],
+  "measurement_limit": "Phone capture/USB/Android touch registration cannot be certified using a local replay. One test retreat cannot substantiate reliable 0.80 F1."
+}

@@ -1,0 +1,40 @@
+{
+  "thread_benchmark": {
+    "1": {
+      "median_ms": 1280.5,
+      "samples_ms": [
+        1265,
+        1297,
+        1375,
+        953,
+        1157,
+        1296
+      ]
+    },
+    "2": {
+      "median_ms": 773.5,
+      "samples_ms": [
+        704,
+        781,
+        781,
+        766,
+        765,
+        797
+      ]
+    },
+    "4": {
+      "median_ms": 422.0,
+      "samples_ms": [
+        438,
+        406,
+        437,
+        407,
+        406,
+        453
+      ]
+    }
+  },
+  "recommended_threads": 4,
+  "adapter_only_mean_ms": 0.06809849996352568,
+  "phone_access": false
+}

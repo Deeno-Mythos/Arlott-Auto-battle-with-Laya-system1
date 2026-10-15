@@ -1,0 +1,81 @@
+{
+  "hero": "Arlott",
+  "serial": null,
+  "frame_size": [
+    1600,
+    720
+  ],
+  "points": {
+    "joystick": [
+      0.223125,
+      0.7638888888888888
+    ],
+    "attack": [
+      0.87125,
+      0.8125
+    ],
+    "skill1": [
+      0.745,
+      0.8236111111111111
+    ],
+    "skill2": [
+      0.784375,
+      0.6402777777777777
+    ],
+    "ultimate": [
+      0.87375,
+      0.5625
+    ],
+    "spell": [
+      0.619375,
+      0.8361111111111111
+    ],
+    "regen": [
+      0.569375,
+      0.8888888888888888
+    ],
+    "recall": [
+      0.5075,
+      0.8888888888888888
+    ]
+  },
+  "joystick_radius": 0.04,
+  "hp_rect": [
+    0.47,
+    0.3763888888888889,
+    0.545625,
+    0.39305555555555555
+  ],
+  "battle_anchor": {
+    "file": "tests/fixtures/battle-anchor.png",
+    "rect": [
+      0.8432499999999999,
+      0.7505,
+      0.89925,
+      0.8745
+    ]
+  },
+  "player_center": [
+    0.5075,
+    0.5347222222222222
+  ],
+  "enemy_region": [
+    0.18,
+    0.02,
+    0.95,
+    0.78
+  ],
+  "model": "models/arlott-video-v1",
+  "model_device": "cpu",
+  "torch_threads": 4,
+  "decision_interval": 0.6,
+  "min_answer_confidence": 0.6,
+  "max_decision_age": 1.5,
+  "melee_range": 0.1,
+  "retreat_health": 0.3,
+  "auto_use_skills": true,
+  "combat_fallback": true,
+  "combo_interval": 9.0,
+  "ultimate_interval": 30.0,
+  "policy_schema": "arlott-v1"
+}

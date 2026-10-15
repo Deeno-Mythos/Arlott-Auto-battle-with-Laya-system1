@@ -1,0 +1,23 @@
+{
+  "samples_per_backend": 2000,
+  "models": {
+    "fp32": {
+      "p50_ms": 0.015649999999999997,
+      "p95_ms": 0.0177,
+      "p99_ms": 0.024600999999999998,
+      "max_logit_error_vs_pytorch": 1.430511474609375e-06,
+      "argmax_agreement_vs_pytorch": 1.0,
+      "bytes": 331508
+    },
+    "int8": {
+      "p50_ms": 0.0163,
+      "p95_ms": 0.019004999999999994,
+      "p99_ms": 0.04462199999999998,
+      "max_logit_error_vs_pytorch": 0.09317159652709961,
+      "argmax_agreement_vs_pytorch": 0.9891304347826086,
+      "bytes": 90938
+    }
+  },
+  "selected": "fp32",
+  "scope": "Model session only; excludes perception, capture, USB and phone touch registration."
+}
